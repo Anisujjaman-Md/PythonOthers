@@ -11,7 +11,6 @@ def decode(message):
     return string_bytes.decode('ascii')
 
 def main():  
-    
     message = input("Enter a message: ")
     
     encode_string = int(input("Enter 1 for encode or 2 for decode: "))
@@ -21,5 +20,4 @@ def main():
         print("Decoded from Base64 To String is:", decode(message))
     else:
         print("Invalid input")
-
 main()

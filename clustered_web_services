@@ -1,0 +1,9 @@
+digraph "Clustered Web Services" {
+	graph [fontcolor="#2D3436" fontname="Sans-Serif" fontsize=15 label="Clustered Web Services" nodesep=0.60 pad=2.0 rankdir=LR ranksep=0.75 splines=ortho]
+	node [fixedsize=true fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13 height=1.4 imagescale=true labelloc=b shape=box style=rounded width=1.4]
+	edge [color="#7B8894"]
+	"651a71bf09074349b68295f99e48f5a2" [label=lb height=1.9 image="C:\Python310\lib\site-packages\resources/aws/network\elastic-load-balancing.png" shape=none]
+	subgraph cluster_Services {
+		graph [bgcolor="#E5F5FD" fontname="Sans-Serif" fontsize=12 label=Services labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+	}
+}

@@ -1,0 +1,10 @@
+digraph "Web Service" {
+	graph [fontcolor="#2D3436" fontname="Sans-Serif" fontsize=15 label="Web Service" nodesep=0.60 pad=2.0 rankdir=LR ranksep=0.75 splines=ortho]
+	node [fixedsize=true fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13 height=1.4 imagescale=true labelloc=b shape=box style=rounded width=1.4]
+	edge [color="#7B8894"]
+	bbc2be78aa85491183d37e3c73759547 [label=lb height=1.9 image="C:\Python310\lib\site-packages\resources/aws/network\elastic-load-balancing.png" shape=none]
+	"1238553dd3e94d719b01c297aad7c632" [label=web height=1.9 image="C:\Python310\lib\site-packages\resources/aws/compute\ec2.png" shape=none]
+	bbc2be78aa85491183d37e3c73759547 -> "1238553dd3e94d719b01c297aad7c632" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"9df2c6053f674b5faed1a441121ba5ba" [label=userdb height=1.9 image="C:\Python310\lib\site-packages\resources/aws/database\rds.png" shape=none]
+	"1238553dd3e94d719b01c297aad7c632" -> "9df2c6053f674b5faed1a441121ba5ba" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+}
